@@ -1,0 +1,502 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ 
+/* Style Header */
+header {
+    background-color: skyblue;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Style navbar */
+
+
+nav {
+    position: sticky;
+    top: 0px;
+}
+
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+
+nav {
+    background-color: black;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+
+/* style section 1 */
+
+
+#section1 img {
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+}
+
+#section1 button {
+    background-color: blue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+#text1 h1 {
+    color: white;
+    font-size: xxx-large;
+}
+
+#text1 p {
+    color: antiquewhite;
+}
+
+#text1 {
+    height: 45vh;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+#img1 img {
+    position: absolute;
+    z-index: -1;
+    height: 45vh;
+}
+
+
+/* Style section 2 */
+
+
+
+
+.main {
+    height: fit-content;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+/*    border-radius: 10px;*/
+    padding: 20px;
+/*    border: 1px solid black;*/
+}
+
+    .main img {
+        border-radius: 10px;
+    }
+
+#button {
+    width: 100px;
+    padding: 10px;
+    font-weight: 700;
+    background-color: blue;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: x-large;
+    margin: 2px 0px;
+}
+
+p {
+    font-size: larger;
+}
+
+.section2card {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#section2 h3 {
+    color: blue;
+    margin: 25px;
+}
+
+#section2 p {
+    color: black;
+    margin-bottom: 5px;
+}
+
+#section2 {
+    text-align: center;
+}
+
+
+
+@media (max-width: 448px) {
+    .main {
+        height: fit-content;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        border: 1px solid black;
+    }
+}
+
+@media (max-width: 300px) {
+    .main {
+        height: fit-content;
+        width: 100px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        border-radius: 10px;
+        padding: 20px;
+        border: 1px solid black;
+    }
+}
+
+
+/* Service part */
+.mainservice {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.service {
+    background-color: burlywood;
+    padding: 5px 20px;
+}
+
+
+/* Style Section 3..................... */
+#section3 {
+    margin-top: 50px;
+    background-color: #ff7800;
+    padding: 50px 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Style Section 3..................... */
+
+.section4 {
+    text-align: center;
+}
+
+    .section4 h3 {
+        color: blue;
+    }
+
+.membership {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.memb {
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20230503/pngtree-green-and-blue-background-photos-download-free-wallpaper-vector-image_2589708.jpg);
+    background-repeat: no-repeat;
+    padding: 5px 0px;
+    width: 250px;
+    margin-top: 15px;
+}
+
+    .memb h5 {
+        font-size: large;
+        font-weight: bold;
+    }
+
+
+.section5 {
+    padding: 10px;
+    width: auto;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 50px;
+    background-color: darkgrey;
+    padding-left: 30px;
+}
+
+    .section5 p {
+        font-size: medium;
+    }
+
+    .section5 b {
+        font-size: larger;
+    }
+
+/* Style section 6....................... */
+
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.section6 {
+    margin: 20px;
+    text-align: center;
+}
+
+    .section6 h3 {
+        padding-bottom: 20px;
+        color: blue;
+    }
+
+.gallery img {
+    width: 300px;
+}
+
+@media (max-width: 470px) {
+
+    .gallery img {
+        width: 200px;
+    }
+}
+
+
+/* section 7.............. */
+
+.section7 {
+    padding: 50px 30px;
+    width: auto;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+}
+
+    .section7 p {
+        font-size: medium;
+    }
+
+    .section7 b {
+        font-size: larger;
+    }
+
+/* section 8.............. */
+
+
+.section8 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    gap: 10px;
+}
+
+    .section8 input,
+    textarea {
+        border-radius: 10px;
+        border: 1px solid;
+        margin: auto;
+        padding: 10px 100px;
+    }
+
+    .section8 h4 {
+        color: blue;
+    }
+
+    .section8 button {
+        background-color: blue;
+        color: white;
+        margin: auto;
+        padding: 5px 50px;
+        border-radius: 10px;
+    }
+
+@media (max-width:620px) {
+
+    .section8 input,
+    textarea {
+        padding: 10px 10px;
+    }
+}
+
+/* footer ................... */
+
+footer {
+    text-align: center;
+    background-color: black;
+    height: 100px;
+    color: white;
+    padding: 20px;
+}
+
+    footer h3 {
+        padding: 10px;
+    }
+
+.footerlogo {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Uniform Card */
+.card {
+    position: relative;
+    width: 300px;
+    height: 30%; /* fixed height */
+    background: #191919;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.3s ease;
+}
+
+    /* Skewed BG Animation */
+    .card::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        width: 100%;
+        height: 100%;
+        background: #ffce00;
+        transform: skewY(345deg);
+        transition: 0.5s;
+    }
+
+    .card:hover::before {
+        top: -70%;
+        transform: skewY(390deg);
+    }
+
+    .card::after {
+        content: "CORSAIR";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-weight: 600;
+        font-size: 6em;
+        color: rgba(0, 0, 0, 0.1);
+    }
+
+    /* Image Box Fixed Height */
+    .card .imgBox {
+        height: 200px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        z-index: 1;
+    }
+
+.mouse {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+/* Content Box (fixed height, scroll optional if needed) */
+.card .contentBox {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    z-index: 2;
+}
+
+    .card .contentBox h3 {
+        font-size: 16px;
+        color: white;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-bottom: 8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
+    }
+
+    .card .contentBox .price {
+        font-size: 20px;
+        color: white;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    /* Buy Button Animation */
+    .card .contentBox .buy {
+        position: relative;
+        top: 80px;
+        opacity: 0;
+        padding: 8px 20px;
+        margin-top: 15px;
+        color: #000000;
+        text-decoration: none;
+        background: #ffce00;
+        border-radius: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: 0.5s;
+    }
+
+.card:hover .contentBox .buy {
+    top: 0;
+    opacity: 1;
+}
+
+/* Responsive for small screen */
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        height: 380px;
+    }
+
+        .card .imgBox {
+            height: 150px;
+        }
+
+    .mouse {
+        max-height: 100%;
+    }
+}

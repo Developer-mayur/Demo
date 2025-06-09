@@ -1,0 +1,36 @@
+﻿@model List<DemoApp.Models.Product>
+
+@{
+    ViewData["Title"] = "Products";
+  
+}
+
+<h1 class="text-center my-4 text-primary">Products</h1>
+
+<div class="card-container">
+    @foreach (var product in Model)
+    {
+        <div class="card">
+            <div class="imgBox">
+
+
+
+                
+                    @if (product.ImageData != null)
+                    {
+                        <img src="@Url.Action("GetImage", "Admin", new { id = product.ProductId })"
+                             alt="@product.Name" style="width:170px; height:auto;" />
+                    }
+                    else
+                    {
+                        <span>No Image</span>
+                    }         
+            </div>
+            <div class="contentBox">
+                <h3>@product.Name</h3>
+                <h2 class="price">@product.Price <small>₹</small></h2>
+                <a href="#" class="buy">Buy Now</a>
+            </div>
+        </div>
+    }
+</div>
